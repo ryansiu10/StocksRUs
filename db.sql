@@ -31,5 +31,7 @@ CREATE TABLE Accounts(
 	FOREIGN KEY(own)
 		REFERENCES Customer(username)
 		ON UPDATE CASCADE ON DELETE CASCADE
-	);
-)
+);
+
+CREATE TABLE 
+
